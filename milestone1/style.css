@@ -1,0 +1,31 @@
+:root {
+    --primary: #2E3A46;
+    --secondary: #1E2D3B;
+}
+
+nav {
+    height: 7vh;
+    padding: 10px 20px;
+    background-color: var(--primary);
+}
+
+.cdDisksListsContainer {
+    min-height: 93vh;
+    background-color: var(--secondary);
+}
+
+.cdDiskItemContainer {
+    background-color: var(--primary);
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.cdDiskPoster {
+        width: 70%;
+}
+
+.cdDiskSubtitle {
+    color: #5F6569;
+    display: block;
+}
